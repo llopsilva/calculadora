@@ -1,0 +1,68 @@
+
+body {
+    background-color: #3a3d3b;
+}
+
+#corpo {
+    background-color: #9ee493;
+
+    border: 1px;
+    border-radius: 5px;
+
+    width: 500px;
+    height: 520px;
+
+    margin: 20px;
+    padding: 40px;    
+}
+
+#teclas {
+    height: fit-content;
+
+}
+
+#screen {
+    background-color: beige;
+
+    border: 1px;
+    border-radius: 5px;
+
+    width: 100%;
+    height: 80px;
+
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+
+
+.btn {
+    width: 80px;
+    height: 50px;
+
+    margin: 15px 5px 15px 5px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#operator {
+    color: #daf7dc;
+    background-color: #2f4858;
+}
+
+#number {
+    background-color: #86bbd8;
+}
+
+#result {
+    color: #daf7dc;
+    height: 245px;
+    background-color: #336699;
+}
+
+#clear {
+    background-color: #daf7dc;
+}
